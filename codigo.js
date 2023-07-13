@@ -1,6 +1,6 @@
 let btn = document.querySelector('.btnChangeColor');
 let body = document.querySelector('body');
-let icon = document.querySelector(".fa-sun");
+let icon = document.querySelector(".fa-moon");
 let header = document.querySelector(".headerContainer");
 let main = document.querySelector("main")
 
