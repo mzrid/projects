@@ -17,11 +17,11 @@ function eyeball(){
 }
 
 function nocturne(){
-	if(icon.classList.contains("fa-sun")){
-		icon.classList.replace("fa-sun", "fa-moon")
-		
-	} else if(icon.classList.contains("fa-moon")){
+	if(icon.classList.contains("fa-moon")){
 		icon.classList.replace("fa-moon", "fa-sun")
+		
+	} else if(icon.classList.contains("fa-sun")){
+		icon.classList.replace("fa-sun", "fa-moon")
 		
 	}
 	header.classList.toggle("nocturneHeader")
