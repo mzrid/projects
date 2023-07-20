@@ -75,7 +75,6 @@
 .fa-bars{
 	display: none;
 	visibility: hidden;
-	opacity: 0;
 }
 .fa-bars:hover{
 	cursor: pointer;
@@ -226,12 +225,14 @@ main{
 	}
 	.fa-bars{
 		display: block;
+		visibility:normal;
 		font-size:40px;
 		color: #000000;
 		background: none;
 		border: none;
 		float: right;
 		margin: 10px;
+		
 		z-index: 2;
 	}
 	.show{
