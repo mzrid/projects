@@ -1,6 +1,8 @@
 let btn = document.querySelector('.btnChangeColor');
 let body = document.querySelector('body');
-let icon = document.querySelector(".fa-moon");
+let icon = document.querySelector(".fa-sun");
+let nav = document.querySelector(".nav")
+let btnBars = document.querySelector(".fa-bars")
 let header = document.querySelector(".headerContainer");
 let main = document.querySelector("main")
 
@@ -17,16 +19,20 @@ function eyeball(){
 }
 
 function nocturne(){
-	if(icon.classList.contains("fa-moon")){
-		icon.classList.replace("fa-moon", "fa-sun")
-		
-	} else if(icon.classList.contains("fa-sun")){
+	if(icon.classList.contains("fa-sun")){
 		icon.classList.replace("fa-sun", "fa-moon")
+		
+	} else if(icon.classList.contains("fa-moon")){
+		icon.classList.replace("fa-moon", "fa-sun")
 		
 	}
 	header.classList.toggle("nocturneHeader")
 	main.classList.toggle("nocturneMain")
 }
 
+function show(){
+	nav.classList.toggle("show")
+}
+btnBars.addEventListener('click', show)
 btn.addEventListener('click', nocturne);
 body.addEventListener('mousemove', eyeball);
