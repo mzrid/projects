@@ -225,7 +225,7 @@ main{
 	}
 	.fa-bars{
 		display: block;
-		visibility:normal;
+		visibility:visible;
 		font-size:40px;
 		color: #000000;
 		background: none;
