@@ -74,6 +74,8 @@
 }
 .fa-bars{
 	display: none;
+	visibility: hidden;
+	opacity: 0;
 }
 .fa-bars:hover{
 	cursor: pointer;
