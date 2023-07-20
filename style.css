@@ -36,9 +36,7 @@
 	float: right;
 	margin: 0 10px;
 }
-.fa-bars{
-	display: none;
-}
+
 .ulNav{
 	display: flex;
 	flex-direction: row;
@@ -73,6 +71,9 @@
 }
 .btnChangeColor:hover{
 	cursor: pointer;
+}
+.fa-bars{
+	display: none;
 }
 .fa-bars:hover{
 	cursor: pointer;
