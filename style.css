@@ -75,7 +75,7 @@
 
 .fa-bars{
 	display: none;
-	opacity:0;
+	opacity: 0;
 }
 .fa-bars:hover{
 	cursor: pointer;
@@ -98,8 +98,9 @@ main{
 	width: 1200px;
 	height: 90vh;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .box-container{
@@ -168,10 +169,10 @@ main{
 }
 
 .description{
-	width: 480px;
+	max-width: 380px;
 	height: 480px;
-	padding: 80px 30px;
-	margin-right: 100px;
+	padding: 60px 0px;
+	margin: 10px;
 }
 .description-title{
 	font-size: 40px;
@@ -216,7 +217,7 @@ main{
 	}
 	.nav{
 		height: 100vh;
-		width: 200px;
+		width: 175px;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
@@ -230,7 +231,6 @@ main{
 	}
 	.fa-bars{
 		display: block;
-		opacity: 1;
 		font-size:40px;
 		color: #000000;
 		background: none;
@@ -238,6 +238,7 @@ main{
 		float: right;
 		margin: 10px;
 		z-index: 2;
+		opacity: 1;
 	}
 	.show{
 		top: 0px;
@@ -292,16 +293,16 @@ main{
 		background-color: #fff;
 	}
 	.firstSectionContainer{
-		width: 1200px;
+		max-width: 375px;
 		height: 90vh;
 		display: flex;
-		flex-direction: column;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: center;
 	}
 	
 	.box-container{
-		width: 480px;
+		max-width: 375px;
 		height: 480px;
 		display: flex;
 		justify-content: center;
@@ -362,8 +363,7 @@ main{
 	}
 	
 	.description{
-		max-width: 400px;
-		width: 480px;
+		max-width: 375px;
 		height: 480px;
 		padding: 30px 30px;
 		margin-right: 0px;
@@ -379,6 +379,12 @@ main{
 	}
 }
 
+
+@media screen and (min-width:3750px) and (max-width:600px){
+	.headerContainer{
+		background-color: #000;
+	}
+}
 
 /*---MODO OSCURO DEL HEADER*/
 .nocturneHeader, .nocturneHeader .nav{
