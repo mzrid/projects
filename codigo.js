@@ -5,6 +5,7 @@ let nav = document.querySelector(".nav")
 let btnBars = document.querySelector(".fa-bars")
 let header = document.querySelector(".headerContainer");
 let main = document.querySelector("main")
+let ninja = document.querySelector(".ninjaimg");
 
 function eyeball(){
 	const eye = document.querySelectorAll('.eye');
@@ -28,6 +29,7 @@ function nocturne(){
 	}
 	header.classList.toggle("nocturneHeader")
 	main.classList.toggle("nocturneMain")
+	body.classList.toggle("nocturneMain")
 }
 
 function show(){
