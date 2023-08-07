@@ -338,7 +338,7 @@ section{
 	}
 	.firstSectionContainer{
 		max-width: 100%;
-		height: 110vh;
+		height: 130vh;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
